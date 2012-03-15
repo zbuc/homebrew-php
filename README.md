@@ -54,11 +54,11 @@ There are two methods to install packages from this repository.
 First, find the raw URL for the formula you want. For example, the raw URL for
 the `php` formula is:
 
-    https://github.com/josegonzalez/homebrew-php/raw/master/php54/php53.rb
+    https://github.com/josegonzalez/homebrew-php/raw/master/php54/php54.rb
 
 Once you know the raw URL, simply use `brew install [raw URL]`, like so:
 
-    brew install https://github.com/josegonzalez/homebrew-php/raw/master/php54/php53.rb
+    brew install https://github.com/josegonzalez/homebrew-php/raw/master/php54/php54.rb
 
 #### Method 2: Repository Clone
 
@@ -72,7 +72,7 @@ Once you've got your clone, simply use `brew install [full path to formula]`.
 
 For example, to install `php`:
 
-    brew install /usr/local/LibraryPHP/php54/php53.rb
+    brew install /usr/local/LibraryPHP/php54/php54.rb
 
 That's it!
 
