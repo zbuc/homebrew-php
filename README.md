@@ -54,11 +54,11 @@ There are two methods to install packages from this repository.
 First, find the raw URL for the formula you want. For example, the raw URL for
 the `php` formula is:
 
-    https://github.com/josegonzalez/homebrew-php/raw/master/Formula/php.rb
+    https://github.com/josegonzalez/homebrew-php/raw/master/php54/php53.rb
 
 Once you know the raw URL, simply use `brew install [raw URL]`, like so:
 
-    brew install https://github.com/josegonzalez/homebrew-php/raw/master/Formula/php.rb
+    brew install https://github.com/josegonzalez/homebrew-php/raw/master/php54/php53.rb
 
 #### Method 2: Repository Clone
 
@@ -72,9 +72,24 @@ Once you've got your clone, simply use `brew install [full path to formula]`.
 
 For example, to install `php`:
 
-    brew install /usr/local/LibraryPHP/Formula/php.rb
+    brew install /usr/local/LibraryPHP/php54/php53.rb
 
 That's it!
+
+## Contributing
+
+Any php-related tools should be in the `Formula` directory. PHP extensions and modifications
+to the PHP brew itself should go in the respective `php*` directory. Pull requests containing
+changes for all supported PHP versions would be delightful where possible.
+
+All extensions should have the `-phpVERSION` suffix, where version is either `4`, `52`, `53`,
+or `54`. For example, `redis-php52`, `redis-php53` and `redis-php54` would all be valid
+formulae for their respective PHP versions.
+
+All new extensions should have a `head` install url where possible.
+
+Frameworks, Tools and Web Applications should go in `Formula`. Please not that not all items
+are acceptable, especially Frameworks, so do not be offended if your formula is not pulled in.
 
 ## Todo
 
