@@ -1,6 +1,6 @@
 require 'formula'
 
-class PspellPhp < Formula
+class PspellPhp53 < Formula
   homepage 'http://php.net/manual/en/book.pspell.php'
   url 'http://www.php.net/get/php-5.3.10.tar.bz2/from/this/mirror'
   md5 '816259e5ca7d0a7e943e56a3bb32b17f'

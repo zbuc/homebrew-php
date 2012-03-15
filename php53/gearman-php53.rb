@@ -1,6 +1,6 @@
 require 'formula'
 
-class GearmanPhp < Formula
+class GearmanPhp53 < Formula
   homepage 'http://pecl.php.net/package/gearman'
   url 'http://pecl.php.net/get/gearman-1.0.1.tgz'
   md5 'dc576593f18e73aacf3b4430ba9d47d5'

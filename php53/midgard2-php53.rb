@@ -1,6 +1,6 @@
 require 'formula'
 
-class Midgard2Php < Formula
+class Midgard2Php53 < Formula
   homepage 'http://www.midgard-project.org'
   url 'http://www.midgard-project.org/midcom-serveattachmentguid-025abaac43f811e0b064792d116f21f421f4/php5-midgard2-10.05.4.tar.gz'
   head 'https://github.com/midgardproject/midgard-php5.git', :branch => 'ratatoskr'

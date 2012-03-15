@@ -1,6 +1,6 @@
 require 'formula'
 
-class UploadprogressPhp < Formula
+class UploadprogressPhp53 < Formula
   homepage 'http://pecl.php.net/package/uploadprogress'
   url 'http://pecl.php.net/get/uploadprogress-1.0.3.1.tgz'
   md5 '13fdc39d68e131f37c4e18c3f75aeeda'

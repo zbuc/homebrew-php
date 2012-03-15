@@ -8,7 +8,7 @@ def postgres_installed?
   `which pg_config`.length > 0
 end
 
-class Php < Formula
+class Php53 < Formula
   homepage 'http://php.net'
   url 'http://www.php.net/get/php-5.3.10.tar.bz2/from/this/mirror'
   md5 '816259e5ca7d0a7e943e56a3bb32b17f'

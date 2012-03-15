@@ -1,6 +1,6 @@
 require 'formula'
 
-class YamlPhp < Formula
+class YamlPhp53 < Formula
   homepage 'http://pecl.php.net/package/yaml'
   url 'http://pecl.php.net/get/yaml-1.0.1.tgz'
   head 'https://svn.php.net/repository/pecl/yaml/trunk', :using => :svn

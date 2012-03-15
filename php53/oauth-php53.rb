@@ -1,6 +1,6 @@
 require 'formula'
 
-class OauthPhp < Formula
+class OauthPhp53 < Formula
   homepage 'http://pecl.php.net/package/oauth'
   url 'http://pecl.php.net/get/oauth-1.2.2.tgz'
   head 'https://svn.php.net/repository/pecl/oauth/trunk', :using => :svn

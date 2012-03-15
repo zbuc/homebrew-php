@@ -1,6 +1,6 @@
 require 'formula'
 
-class RedisPhp < Formula
+class RedisPhp53 < Formula
   homepage 'https://github.com/nicolasff/phpredis'
   url 'https://github.com/nicolasff/phpredis/tarball/2.1.3'
   head 'https://github.com/nicolasff/phpredis.git'

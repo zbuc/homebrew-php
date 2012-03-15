@@ -1,6 +1,6 @@
 require 'formula'
 
-class XcachePhp < Formula
+class XcachePhp53 < Formula
   homepage 'http://xcache.lighttpd.net'
   url 'http://xcache.lighttpd.net/pub/Releases/1.3.2/xcache-1.3.2.tar.bz2'
   md5 '56ff8139c9773216dd6e2a85860aad94'
